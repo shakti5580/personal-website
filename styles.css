@@ -2,14 +2,14 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #1c1c1c;
+    color: #e0e0e0;
     line-height: 1.6;
 }
 
 header {
-    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-    color: white;
+    background: linear-gradient(135deg, #333333 0%, #000000 100%);
+    color: #ffffff;
     text-align: center;
     padding: 2em 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -30,7 +30,7 @@ main {
 section {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #fff;
+    background-color: #2e2e2e;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -42,7 +42,7 @@ section:hover {
 }
 
 section h2 {
-    border-bottom: 3px solid #2575fc;
+    border-bottom: 3px solid #4a90e2;
     padding-bottom: 10px;
     margin-bottom: 15px;
     font-size: 1.8em;
@@ -54,8 +54,8 @@ section p {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 1em 0;
     position: fixed;
@@ -75,7 +75,7 @@ ul {
 }
 
 ul li {
-    background: #f4f4f4;
+    background: #3a3a3a;
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 4px;
@@ -83,17 +83,16 @@ ul li {
 }
 
 ul li:hover {
-    background-color: #e2e2e2;
+    background-color: #5a5a5a;
 }
 
 a {
     text-decoration: none;
-    color: #2575fc;
+    color: #4a90e2;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #6a11cb;
+    color: #f39c12;
 }
-
